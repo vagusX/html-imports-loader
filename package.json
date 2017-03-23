@@ -1,14 +1,9 @@
 {
   "name": "html-imports-loader",
   "description": "",
-  "main": "dist/html-imports-loader.js",
-  "jsnext:main": "dist/html-imports-loader.es2015.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "rimraf dist/** && NODE_ENV=production node rollup.config.js",
-    "build:dev": "node rollup.config.js",
-    "dev": "npm run build:dev && npm run watch",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "watch": "onchange lib -- npm run dev"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -27,14 +22,6 @@
   "homepage": "https://github.com/vagusX/html-imports-loader#readme",
   "devDependencies": {
     "ghooks": "^2.0.0",
-    "onchange": "^3.2.1",
-    "rimraf": "^2.6.1",
-    "rollup": "^0.41.6",
-    "rollup-plugin-buble": "^0.15.0",
-    "rollup-plugin-eslint": "^3.0.0",
-    "rollup-plugin-node-globals": "^1.1.0",
-    "semantic-release": "^6.3.2",
-    "standard": "^9.0.2",
     "validate-commit-message": "^3.0.1"
   },
   "dependencies": {
