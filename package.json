@@ -22,6 +22,7 @@
   "homepage": "https://github.com/vagusX/html-imports-loader#readme",
   "devDependencies": {
     "ghooks": "^2.0.0",
+    "semantic-release": "^6.3.2",
     "validate-commit-message": "^3.0.1"
   },
   "dependencies": {
