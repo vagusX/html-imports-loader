@@ -22,8 +22,6 @@
   "homepage": "https://github.com/vagusX/html-imports-loader#readme",
   "devDependencies": {
     "ghooks": "^2.0.0",
-    "polymer-build": "^0.9.1",
-    "polymer-bundler": "^2.0.0-pre.6",
     "semantic-release": "^6.3.2",
     "validate-commit-message": "^3.0.1"
   },
