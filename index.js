@@ -25,15 +25,15 @@ module.exports = function (content) {
 
     meta.url = result[1] + '.html'
 
-    var _this = this
     var callback = this.async()
+    var _this = this
 
     bundler(url, function(inlinedHtml) {
       _this.emitFile(result[1] + '.html', inlinedHtml)
       callback(null, 'module.exports = ' + (JSON.stringify(meta)))
     })
   } else {
-    return 'module.exports = ' + (JSON.stringify(meta))
+    throw new Error('This html module dont have any module id')
   }
 }
 
@@ -44,14 +44,7 @@ function bundler (target, callback) {
     inlineCss: true,
     stripComments: true
   }).process(target, function (err, inlinedHtml) {
-    onError(err)
+    if (err) throw err
     callback(inlinedHtml)
   })
-}
-
-function onError (err) {
-  if (err) {
-    console.error(err + '\n' + err.stack)
-    throw err
-  }
 }
