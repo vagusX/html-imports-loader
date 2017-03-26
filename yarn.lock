@@ -37,19 +37,19 @@
 
 "@types/clone@^0.1.29":
   version "0.1.30"
-  resolved "http://registry.npm.taobao.org/@types/clone/download/@types/clone-0.1.30.tgz#e7365648c1b42136a59c7d5040637b3b5c83b614"
+  resolved "https://registry.npmjs.org/@types/clone/-/clone-0.1.30.tgz#e7365648c1b42136a59c7d5040637b3b5c83b614"
 
 "@types/node@6.0.*":
   version "6.0.66"
-  resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-6.0.66.tgz#5680b74a6135d33d4c00447e7c3dc691a4601625"
+  resolved "https://registry.npmjs.org/@types/node/-/node-6.0.66.tgz#5680b74a6135d33d4c00447e7c3dc691a4601625"
 
 "@types/node@^4.0.30":
   version "4.2.4"
-  resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-4.2.4.tgz#4024bbd6e5000e9fef6db3333042112a2d82247c"
+  resolved "https://registry.npmjs.org/@types/node/-/node-4.2.4.tgz#4024bbd6e5000e9fef6db3333042112a2d82247c"
 
 "@types/parse5@^0.0.31":
   version "0.0.31"
-  resolved "http://registry.npm.taobao.org/@types/parse5/download/@types/parse5-0.0.31.tgz#e827a493a443b156e1b582a2e4c3bdc0040f2ee7"
+  resolved "https://registry.npmjs.org/@types/parse5/-/parse5-0.0.31.tgz#e827a493a443b156e1b582a2e4c3bdc0040f2ee7"
   dependencies:
     "@types/node" "6.0.*"
 
@@ -87,7 +87,7 @@ ajv@^4.9.1:
 
 amdefine@>=0.0.4:
   version "1.0.1"
-  resolved "http://registry.npm.taobao.org/amdefine/download/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
+  resolved "https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
 ansi-regex@^2.0.0:
   version "2.1.1"
@@ -140,8 +140,8 @@ assert-plus@^0.2.0:
   resolved "https://registry.npmjs.org/assert-plus/-/assert-plus-0.2.0.tgz#d74e1b87e7affc0db8aadb7021f3fe48101ab234"
 
 async@^2.0.1:
-  version "2.1.5"
-  resolved "https://registry.npmjs.org/async/-/async-2.1.5.tgz#e587c68580994ac67fc56ff86d3ac56bdbe810bc"
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/async/-/async-2.2.0.tgz#c324eba010a237e4fbd55a12dee86367d5c0ef32"
   dependencies:
     lodash "^4.14.0"
 
@@ -237,7 +237,7 @@ chalk@^1.1.1:
 
 clone@^1.0.2:
   version "1.0.2"
-  resolved "http://registry.npm.taobao.org/clone/download/clone-1.0.2.tgz#260b7a99ebb1edfe247538175f783243cb19d149"
+  resolved "https://registry.npmjs.org/clone/-/clone-1.0.2.tgz#260b7a99ebb1edfe247538175f783243cb19d149"
 
 co@^4.6.0:
   version "4.6.0"
@@ -367,14 +367,14 @@ dezalgo@^1.0.1:
 
 doctrine@^0.7.0:
   version "0.7.2"
-  resolved "http://registry.npm.taobao.org/doctrine/download/doctrine-0.7.2.tgz#7cb860359ba3be90e040b26b729ce4bfa654c523"
+  resolved "https://registry.npmjs.org/doctrine/-/doctrine-0.7.2.tgz#7cb860359ba3be90e040b26b729ce4bfa654c523"
   dependencies:
     esutils "^1.1.6"
     isarray "0.0.1"
 
 dom5@^1.1.0, dom5@^1.3.1:
   version "1.3.6"
-  resolved "http://registry.npm.taobao.org/dom5/download/dom5-1.3.6.tgz#a7088a9fc5f3b08dc9f6eda4c7abaeb241945e0d"
+  resolved "https://registry.npmjs.org/dom5/-/dom5-1.3.6.tgz#a7088a9fc5f3b08dc9f6eda4c7abaeb241945e0d"
   dependencies:
     "@types/clone" "^0.1.29"
     "@types/node" "^4.0.30"
@@ -404,7 +404,7 @@ error-ex@^1.2.0:
 
 es6-promise@^2.1.0:
   version "2.3.0"
-  resolved "http://registry.npm.taobao.org/es6-promise/download/es6-promise-2.3.0.tgz#96edb9f2fdb01995822b263dd8aadab6748181bc"
+  resolved "https://registry.npmjs.org/es6-promise/-/es6-promise-2.3.0.tgz#96edb9f2fdb01995822b263dd8aadab6748181bc"
 
 escape-string-regexp@^1.0.2:
   version "1.0.5"
@@ -412,7 +412,7 @@ escape-string-regexp@^1.0.2:
 
 escodegen@^1.7.0:
   version "1.8.1"
-  resolved "http://registry.npm.taobao.org/escodegen/download/escodegen-1.8.1.tgz#5a5b53af4693110bebb0867aa3430dd3b70a1018"
+  resolved "https://registry.npmjs.org/escodegen/-/escodegen-1.8.1.tgz#5a5b53af4693110bebb0867aa3430dd3b70a1018"
   dependencies:
     esprima "^2.7.1"
     estraverse "^1.9.1"
@@ -430,19 +430,19 @@ espree@^3.1.3:
 
 esprima@^2.7.1:
   version "2.7.3"
-  resolved "http://registry.npm.taobao.org/esprima/download/esprima-2.7.3.tgz#96e3b70d5779f6ad49cd032673d1c312767ba581"
+  resolved "https://registry.npmjs.org/esprima/-/esprima-2.7.3.tgz#96e3b70d5779f6ad49cd032673d1c312767ba581"
 
 estraverse@^1.9.1:
   version "1.9.3"
-  resolved "http://registry.npm.taobao.org/estraverse/download/estraverse-1.9.3.tgz#af67f2dc922582415950926091a4005d29c9bb44"
+  resolved "https://registry.npmjs.org/estraverse/-/estraverse-1.9.3.tgz#af67f2dc922582415950926091a4005d29c9bb44"
 
 estraverse@^3.1.0:
   version "3.1.0"
-  resolved "http://registry.npm.taobao.org/estraverse/download/estraverse-3.1.0.tgz#15e28a446b8b82bc700ccc8b96c78af4da0d6cba"
+  resolved "https://registry.npmjs.org/estraverse/-/estraverse-3.1.0.tgz#15e28a446b8b82bc700ccc8b96c78af4da0d6cba"
 
 esutils@^1.1.6:
   version "1.1.6"
-  resolved "http://registry.npm.taobao.org/esutils/download/esutils-1.1.6.tgz#c01ccaa9ae4b897c6d0c3e210ae52f3c7a844375"
+  resolved "https://registry.npmjs.org/esutils/-/esutils-1.1.6.tgz#c01ccaa9ae4b897c6d0c3e210ae52f3c7a844375"
 
 esutils@^2.0.2:
   version "2.0.2"
@@ -695,7 +695,7 @@ https-proxy-agent@^1.0.0:
 
 hydrolysis@^1.19.1:
   version "1.24.1"
-  resolved "http://registry.npm.taobao.org/hydrolysis/download/hydrolysis-1.24.1.tgz#0f94f055d1065ac0d81ff40b762d143fef07eff4"
+  resolved "https://registry.npmjs.org/hydrolysis/-/hydrolysis-1.24.1.tgz#0f94f055d1065ac0d81ff40b762d143fef07eff4"
   dependencies:
     babel-polyfill "^6.2.0"
     doctrine "^0.7.0"
@@ -768,7 +768,7 @@ is-utf8@^0.2.0:
 
 isarray@0.0.1:
   version "0.0.1"
-  resolved "http://registry.npm.taobao.org/isarray/download/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
+  resolved "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
 
 isarray@~1.0.0:
   version "1.0.0"
@@ -986,15 +986,15 @@ meow@^3.3.0:
     redent "^1.0.0"
     trim-newlines "^1.0.0"
 
-mime-db@~1.26.0:
-  version "1.26.0"
-  resolved "https://registry.npmjs.org/mime-db/-/mime-db-1.26.0.tgz#eaffcd0e4fc6935cf8134da246e2e6c35305adff"
+mime-db@~1.27.0:
+  version "1.27.0"
+  resolved "https://registry.npmjs.org/mime-db/-/mime-db-1.27.0.tgz#820f572296bbd20ec25ed55e5b5de869e5436eb1"
 
 mime-types@^2.1.11, mime-types@^2.1.12, mime-types@~2.1.7:
-  version "2.1.14"
-  resolved "https://registry.npmjs.org/mime-types/-/mime-types-2.1.14.tgz#f7ef7d97583fcaf3b7d282b6f8b5679dab1e94ee"
+  version "2.1.15"
+  resolved "https://registry.npmjs.org/mime-types/-/mime-types-2.1.15.tgz#a4ebf5064094569237b8cf70046776d09fc92aed"
   dependencies:
-    mime-db "~1.26.0"
+    mime-db "~1.27.0"
 
 mime@^1.2.11:
   version "1.3.4"
@@ -1149,7 +1149,7 @@ opt-cli@1.5.1:
 
 optionator@^0.8.1:
   version "0.8.2"
-  resolved "http://registry.npm.taobao.org/optionator/download/optionator-0.8.2.tgz#364c5e409d3f4d6301d6c0b4c05bba50180aeb64"
+  resolved "https://registry.npmjs.org/optionator/-/optionator-0.8.2.tgz#364c5e409d3f4d6301d6c0b4c05bba50180aeb64"
   dependencies:
     deep-is "~0.1.3"
     fast-levenshtein "~2.0.4"
@@ -1185,7 +1185,7 @@ parse-json@^2.2.0:
 
 parse5@^1.4.1:
   version "1.5.1"
-  resolved "http://registry.npm.taobao.org/parse5/download/parse5-1.5.1.tgz#9b7f3b0de32be78dc2401b17573ccaf0f6f59d94"
+  resolved "https://registry.npmjs.org/parse5/-/parse5-1.5.1.tgz#9b7f3b0de32be78dc2401b17573ccaf0f6f59d94"
 
 path-exists@^2.0.0:
   version "2.1.0"
@@ -1210,7 +1210,7 @@ path-object@^2.3.0:
 
 path-posix@^1.0.0:
   version "1.0.0"
-  resolved "http://registry.npm.taobao.org/path-posix/download/path-posix-1.0.0.tgz#06b26113f56beab042545a23bfa88003ccac260f"
+  resolved "https://registry.npmjs.org/path-posix/-/path-posix-1.0.0.tgz#06b26113f56beab042545a23bfa88003ccac260f"
 
 path-type@^1.0.0:
   version "1.1.0"
@@ -1475,7 +1475,7 @@ sntp@1.x.x:
 
 source-map@~0.2.0:
   version "0.2.0"
-  resolved "http://registry.npm.taobao.org/source-map/download/source-map-0.2.0.tgz#dab73fbcfc2ba819b4de03bd6f6eaa48164b3f9d"
+  resolved "https://registry.npmjs.org/source-map/-/source-map-0.2.0.tgz#dab73fbcfc2ba819b4de03bd6f6eaa48164b3f9d"
   dependencies:
     amdefine ">=0.0.4"
 
@@ -1670,7 +1670,7 @@ verror@1.3.6:
 
 vulcanize@^1.15.4:
   version "1.15.4"
-  resolved "http://registry.npm.taobao.org/vulcanize/download/vulcanize-1.15.4.tgz#8a9b48d4dd7fa67d2bdf9aa7cff5044c601d253c"
+  resolved "https://registry.npmjs.org/vulcanize/-/vulcanize-1.15.4.tgz#8a9b48d4dd7fa67d2bdf9aa7cff5044c601d253c"
   dependencies:
     dom5 "^1.3.1"
     es6-promise "^2.1.0"
