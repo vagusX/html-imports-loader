@@ -1,7 +1,7 @@
 {
   "name": "html-imports-loader",
   "description": "",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
