@@ -1,15 +1,16 @@
 sudo: false
 language: node_js
 cache:
+  yarn: true
   directories:
     - node_modules
 notifications:
   email: false
 node_js:
   - '6'
-  - '7'
 before_install:
-  - npm i -g npm@^3.0.0
+  - npm i -g yarn
+install: yarn
 before_script:
   - npm prune
 after_success:
