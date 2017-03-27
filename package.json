@@ -28,5 +28,9 @@
   "dependencies": {
     "loader-utils": "^1.1.0",
     "vulcanize": "^1.15.4"
+  },
+  "peerDependencies": {
+    "react": ">=15.0.0",
+    "react-dom": ">=15.0.0"
   }
 }
