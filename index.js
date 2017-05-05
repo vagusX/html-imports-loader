@@ -14,7 +14,7 @@ module.exports = function (content) {
 
   var publicPath = this.options.output.publicPath
 
-  var meta = { url: publicPath + url }
+  var meta = { url: path.join(publicPath, url) }
 
   var result = content.match(domModuleRegex)
 
@@ -25,7 +25,7 @@ module.exports = function (content) {
 
     if (!emitFile) return 'module.exports = ' + (JSON.stringify(meta))
 
-    meta.url = publicPath + result[1] + '.html'
+    meta.url = path.join(publicPath, result[1] + '.html')
 
     var callback = this.async()
     var _this = this
