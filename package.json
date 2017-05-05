@@ -26,6 +26,7 @@
     "validate-commit-message": "^3.0.1"
   },
   "dependencies": {
+    "decamelize": "^1.2.0",
     "loader-utils": "^1.1.0",
     "vulcanize": "^1.15.4"
   },
