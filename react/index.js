@@ -6,7 +6,6 @@ var Vulcanize = require('vulcanize')
 
 var domModuleRegex = /<dom-module.*?id=["'](.*?)["'].*?>/
 
-
 module.exports = function (content) {
   this.cacheable && this.cacheable()
 
@@ -14,7 +13,9 @@ module.exports = function (content) {
     context: this.options.context
   })
 
-  var meta = { url: url }
+  var publicPath = this.options.output.publicPath
+
+  var meta = { url: publicPath + url }
 
   var result = content.match(domModuleRegex)
 
@@ -25,7 +26,7 @@ module.exports = function (content) {
 
     if (!emitFile) return generateTemplate(meta)
 
-    meta.url = result[1] + '.html'
+    meta.url = publicPath + result[1] + '.html'
 
     var callback = this.async()
     var _this = this
