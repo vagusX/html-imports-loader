@@ -9,12 +9,16 @@ module.exports = function(tagName, url) {
     static displayName = tagName
 
     componentDidMount() {
-      this.componentWillReceiveProps(this.props)
-      htmlModuleLoader(url, () => {
+      const elementConstructor = document.createElement(tagName).constructor
+      if (elementConstructor === HTMLElement) {
+        htmlModuleLoader(url, () => {
+          this.componentWillReceiveProps(this.props)
+        }, function(e) {
+          console.err('Load html module failed:', e)
+        })
+      } else {
         this.componentWillReceiveProps(this.props)
-      }, function(e) {
-        console.err('Load html module failed:', e)
-      })
+      }
     }
 
     componentWillReceiveProps(props) {
