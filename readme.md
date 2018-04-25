@@ -1,5 +1,7 @@
 # HTML Imports Loader for Webpack
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vagusX/html-imports-loader.svg)](https://greenkeeper.io/)
+
 ![NPM](https://img.shields.io/npm/v/html-imports-loader.svg)
 [![Build Status](https://travis-ci.org/vagusX/html-imports-loader.svg)](https://travis-ci.org/vagusX/html-imports-loader)
 

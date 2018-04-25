@@ -22,11 +22,11 @@
   "homepage": "https://github.com/vagusX/html-imports-loader#readme",
   "devDependencies": {
     "ghooks": "^2.0.0",
-    "semantic-release": "^6.3.2",
+    "semantic-release": "^15.1.7",
     "validate-commit-message": "^3.0.1"
   },
   "dependencies": {
-    "decamelize": "^1.2.0",
+    "decamelize": "^2.0.0",
     "loader-utils": "^1.1.0",
     "vulcanize": "^1.15.4"
   },
